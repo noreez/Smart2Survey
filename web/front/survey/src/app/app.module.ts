@@ -24,6 +24,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
       { path: '', component: HomepageComponent },
       { path: 'subscribe', component: SubscribeComponent },
       { path: 'connection', component: ConnectionComponent },
+      { path: 'profile', component: ProfileComponent },
 
     ])
   ],

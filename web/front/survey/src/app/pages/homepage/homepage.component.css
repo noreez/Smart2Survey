@@ -11,12 +11,12 @@
 
 .sub_main_section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .sub_main_section .card {
-    width: 50%;
+    width: 49.5%;
 }
 .sub_main_section .card img {
     width: 100%;
@@ -34,4 +34,8 @@
 
 body, footer {
     padding: 20px;
+    color: white;
+    /* background-color: #e57367 ; */
+    background-color: rgba(229, 115, 112, 0.4);
 }
+

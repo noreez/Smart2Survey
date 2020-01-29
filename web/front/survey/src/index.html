@@ -16,10 +16,15 @@
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="./assets/js/materialize.min.js"></script>
-  <script src="text/jquery">
-      $(document).ready(function(){
-        $('.materialboxed').materialbox();
-      });
+  <script>
+      function load(){
+          $(document).ready(function(){
+              $('.parallax').parallax();
+              $('.materialboxed').materialbox();
+              $('.sidenav').sidenav();
+            });
+          }
+          document.onclick = load;
   </script>
 </body>
 </html>
