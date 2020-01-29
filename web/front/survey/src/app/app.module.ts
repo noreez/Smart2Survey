@@ -23,7 +23,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
     RouterModule.forRoot([
       { path: '', component: HomepageComponent },
       { path: 'subscribe', component: SubscribeComponent },
-      { path: 'connection', component: SubscribeComponent },
+      { path: 'connection', component: ConnectionComponent },
 
     ])
   ],
