@@ -11,6 +11,18 @@ const corsOptions = {
     optionsSuccessStatus: 200,
 };
 
+/* const mysql = require('mysql');
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'user',
+  password: 'password',
+  database: 'database name'
+});
+connection.connect((err) => {
+  if (err) throw err;
+  console.log('Connected!');
+}); */
+
 // const publicRoot = 'versLeCheminFrontAngular/dist';
 // app.use(express.static(publicRoot));
  
@@ -41,7 +53,7 @@ app.use((req, res, next)=>{
  });
 
 app.get('/', (req, res, next)=> {
-     res.send('Hello, My API !');
+     res.send('<h3 style="display: flex; justify-content: center;">Hello, My API !</h3>');
  })
 
 /*  myRouter.get("/", (req, res, next) => {
